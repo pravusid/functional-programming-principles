@@ -57,7 +57,9 @@ object Main {
     *
     * Testing: You can use the toList method to convert from a String to aList[Char]: e.g. "(just an) example".toList.
     */
-  def balance(chars: List[Char]): Boolean = ???
+  def balance(chars: List[Char]): Boolean = {
+    chars.isEmpty
+  }
 
   /**
     * Exercise 3
